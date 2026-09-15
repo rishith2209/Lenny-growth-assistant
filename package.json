@@ -1,0 +1,15 @@
+{
+  "name": "lenny-growth-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lenny Growth Assistant — Production Monorepo",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "pi:start": "npm --workspace=@lenny-growth/pi-bridge run start",
+    "pi:dev": "npm --workspace=@lenny-growth/pi-bridge run dev",
+    "pi:build": "npm --workspace=@lenny-growth/pi-bridge run build"
+  }
+}

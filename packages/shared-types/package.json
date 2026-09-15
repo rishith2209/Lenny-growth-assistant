@@ -1,0 +1,8 @@
+{
+  "name": "@lenny-growth/shared-types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript types and DTO contracts for Lenny Growth Assistant",
+  "main": "index.ts",
+  "types": "index.ts",
+  "private": true
+}
