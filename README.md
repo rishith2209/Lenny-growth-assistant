@@ -6,7 +6,7 @@
 
 ## 🌟 Key Highlights & Non-Negotiable Guarantees
 
-- **₹0 Total Spend / 100% Free Open Weights**: Runs locally via **Ollama** (`llama3.1:8b`, `qwen3:4b`, `nomic-embed-text`). Zero commercial API keys (Anthropic/OpenAI) required for the full evaluator experience.
+- Runs locally via **Ollama** (`llama3.1:8b`, `qwen3:4b`, `nomic-embed-text`). Zero commercial API keys (Anthropic/OpenAI) required for the full evaluator experience.
 - **Primary Runtime Agent**: Powered by **Pi Coding Agent (`@earendil-works/pi-coding-agent` v0.74.2)** running as an isolated microservice bridge with direct tool execution.
 - **PostgreSQL 18 + pgvector Hybrid Search**: Combines 768-dimensional dense vector embeddings with PostgreSQL full-text search via **Reciprocal Rank Fusion (RRF, $k=60$)** over HNSW cosine distance and GIN indexes.
 - **Deterministic Provenance & Citations**: Every claim cites exact speaker attribution, episode titles, and timestamps (`MM:SS`) verifiable in the interactive Evidence Drawer.
